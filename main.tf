@@ -7,6 +7,6 @@ resource "aws_instance" "example_instance" {
   instance_type = "t2.micro"  # Specify the instance type
 
   tags = {
-    Name = "ExampleInstance"
+    Name = "test-Instance"
   }
 }
